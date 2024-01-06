@@ -1,0 +1,196 @@
+.nav{
+    height: 13vh;
+    background:linear-gradient(360deg, #fde1ff, #e1ffea22 90%);
+    margin: 0px;
+    padding: 0px 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+.logo h1{
+    
+    color: rgb(244, 50, 50);
+    
+   }
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu li{
+    margin:0px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(33, 48, 33);
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.login button{
+    border: none;
+    height: 60px;
+    width: 120px;
+    border: 1px solid rgb(101, 98, 98);
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.mobile-menu-icons{
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+      
+    .mobile-menu-icons{
+        display: block;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .nav{
+        height: 10vh;
+        background: linear-gradient(360deg, #fde1ff, #e1ffea22 90%);;
+        margin: 0px;
+        padding: 0px 10px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .logo img{
+        align-items: center;
+        height: 50px;
+        width: 50px;
+    }
+    .logo h1{
+        font-size: 20px;
+        color: rgb(244, 50, 50);
+        
+       }
+    .mobile-menu{
+        list-style: none;
+        position: absolute;
+        display: block;
+        width: 50%;
+        background: rgba(228, 12, 12,0.5);
+        top: 10%;
+
+    }  
+    .mobile-menu li{
+        font-size: 20px;
+        font-weight: 600;
+    } 
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .login button{
+        border: none;
+        height: 40px;
+        width: 100px;
+        border: 1px solid rgb(101, 98, 98);
+        border-radius: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+
+    
+}
+
+@media screen and (min-width:700px) and (max-width:1150px) {
+    .mobile-menu-icons{
+        display: block;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .nav{
+        height: 10vh;
+        background:linear-gradient(360deg, #fde1ff, #e1ffea22 90%);
+        margin: 0px;
+        padding: 0px 50px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .logo img{
+        align-items: center;
+        height: 50px;
+        width: 50px;
+    }
+    .logo h1{
+        font-size: 20px;
+        color: rgb(244, 50, 50);
+        
+       }
+    .mobile-menu{
+        list-style: none;
+        position: absolute;
+        display: block;
+        width: 50%;
+        background: rgba(228, 12, 12,0.5);
+        top: 10%;
+
+    }  
+    .mobile-menu li{
+        font-size: 20px;
+        font-weight: 600;
+    } 
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .login button{
+        border: none;
+        height: 40px;
+        width: 100px;
+        border: 1px solid rgb(101, 98, 98);
+        border-radius: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+}

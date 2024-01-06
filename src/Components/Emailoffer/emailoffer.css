@@ -1,0 +1,180 @@
+.emailoffer{
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(180deg, #f82c2c, #e1ffea22 75%);  
+}
+.emailoffer_left{
+    text-align: center;
+  
+}
+.emailoffer_left h1{
+ font-size: 50px;
+ font-weight: 600;
+ margin-top: 50px;
+ margin-bottom: 1px;
+ color: rgb(3, 32, 3);
+}
+.emailoffer_left p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(12, 19, 12);
+}
+
+.emailoffer_right{
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+    
+    justify-content: center;
+}
+.emailoffer_right input{
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    background: rgb(245, 233, 233);
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    border: 1px solid rgb(218, 213, 213);
+}
+.emailoffer_right button{
+    height: 60px;
+    width: 100px;
+    background: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: -20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px){
+    .emailoffer{
+        width: 95%;
+        height: 8vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(180deg, #85f37d, #e1ffea22 75%);  
+    }
+    .emailoffer_left{
+        text-align: center;
+      
+    }
+    .emailoffer_left h1{
+     font-size: 20px;
+     font-weight: 600;
+     margin-top: 40px;
+     margin-bottom: 0px;
+     color: rgb(3, 32, 3);
+    }
+    .emailoffer_left p{
+        font-size: 8px;
+        font-weight: 500;
+        color: rgb(12, 19, 12);
+    }
+    
+    .emailoffer_right{
+        display: flex;
+        align-items: center;
+        margin: 2px 0px;
+        
+        justify-content: center;
+    }
+    .emailoffer_right input{
+        height: 20px;
+        width: 150px;
+        border-radius: 5px;
+        background: rgb(245, 233, 233);
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        border: 1px solid rgb(218, 213, 213);
+    }
+    .emailoffer_right button{
+        height: 20px;
+        width: 60px;
+        background: black;
+        border-radius: 6px;
+        color: white;
+        font-size: 8px;
+        font-weight: 500;
+        margin-right: -20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1150px){
+    .emailoffer{
+        width: 95%;
+        height: 13vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(180deg, #85f37d, #e1ffea22 75%);  
+    }
+    .emailoffer_left{
+        text-align: center;
+      
+    }
+    .emailoffer_left h1{
+     font-size: 25px;
+     font-weight: 600;
+     margin-top: 40px;
+     margin-bottom: 0px;
+     color: rgb(3, 32, 3);
+    }
+    .emailoffer_left p{
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(12, 19, 12);
+    }
+    
+    .emailoffer_right{
+        display: flex;
+        align-items: center;
+        margin: 2px 0px;
+        
+        justify-content: center;
+    }
+    .emailoffer_right input{
+        height: 25px;
+        width: 150px;
+        border-radius: 5px;
+        background: rgb(245, 233, 233);
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        border: 1px solid rgb(218, 213, 213);
+    }
+    .emailoffer_right button{
+        height: 25px;
+        width: 65px;
+        background: black;
+        border-radius: 6px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: -20px;
+        cursor: pointer;
+    }
+}

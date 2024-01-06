@@ -1,0 +1,143 @@
+.cart_menu{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(60deg, #b5f47e, #e1ffea22 60%);;
+}
+
+.cart_menu h2{
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 20px;
+}
+.price{
+    margin-top: 30px;
+    align-items: start;
+    margin-left: 30px;
+    line-height: 30px;
+}
+.price p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.old {
+    color: rgb(167, 164, 164);
+    
+}
+.card img{
+    height: 30vh;
+    width: 30vh;
+}
+
+.cart_menu button{
+    height: 40px;
+    width: 160px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: rgb(248, 63, 63);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width:700px){
+    .cart_menu{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background:linear-gradient(60deg, #b5f47e, #e1ffea22 60%);;
+    }
+    
+    .cart_menu h2{
+        height: 8px;
+        width: 70px;
+        font-size: 5px;
+        font-weight: 500;
+        gap: 10px;
+    }
+    .price{
+        margin-top: 13px;
+        align-items: start;
+        margin-left: 10px;
+    }
+    .price p{
+        font-size: 7px;
+        font-weight: 500;
+    }
+    .old {
+        color: rgb(167, 164, 164);
+        
+    }
+    .card img{
+        height: 10vh;
+        width: 10vh;
+    }
+    
+    .cart_menu button{
+        height: 15px;
+        width: 50px;
+        border: none;
+        margin-left: 3px;
+        border-radius: 10px;
+        background: rgb(248, 63, 63);
+        font-size: 7px;
+        font-weight: 500;
+        cursor: pointer;
+    
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1150px){
+    .cart_menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background:linear-gradient(60deg, #b5f47e, #e1ffea22 60%);;
+    }
+    
+    .cart_menu h2{
+        height: 20px;
+        width: 150px;
+        font-size: 10px;
+        font-weight: 500;
+        gap: 10px;
+    }
+    .price{
+        margin-top: 13px;
+        align-items: start;
+        margin-left: 10px;
+    }
+    .price p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .old {
+        color: rgb(167, 164, 164);
+        
+    }
+    .card img{
+        height: 22vh;
+        width: 22vh;
+    }
+    
+    .cart_menu button{
+        height: 20px;
+        width: 100px;
+        border: none;
+        margin-left: 3px;
+        border-radius: 8px;
+        background: rgb(248, 63, 63);
+        font-size: 9px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 5px;
+    
+    }
+}

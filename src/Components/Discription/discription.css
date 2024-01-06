@@ -1,0 +1,42 @@
+.discription{
+    margin: 80px 100px;
+    align-self: center;
+}
+
+.discription-left{
+    display: flex;
+    gap: 0px;
+    
+}
+.discription-main{
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(160, 158, 158);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(148, 146, 146);
+    background: rgb(246, 243, 243);
+}
+
+.discription-review{
+    height: 50px;
+    width: 170px;
+    border: 1px solid rgb(160, 158, 158);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    background: rgb(231, 229, 229);
+}
+.discription-right{
+    height: 150px;
+    width: 100%;
+    border: 1px solid rgb(197, 194, 194);
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(174, 170, 170);
+}
